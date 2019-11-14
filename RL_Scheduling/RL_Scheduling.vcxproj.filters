@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Job">
+      <UniqueIdentifier>{75a61d5f-b3fb-49f3-a2a6-c71dc25bc059}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scheduling">
+      <UniqueIdentifier>{f7eeba95-5ae0-4b5d-a372-8b7e46370786}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Operation">
+      <UniqueIdentifier>{814be7f2-a4f9-46db-8155-ab7886ada303}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Machine">
+      <UniqueIdentifier>{7a438ee5-6520-44a1-9158-7909d0005fe3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FileProcess">
+      <UniqueIdentifier>{c19aaac4-32e5-4350-a27b-eb644829d2ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\QLearning">
+      <UniqueIdentifier>{5aa1991e-0247-43bc-b3ba-b1ad8b2419c6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Job.cpp">
+      <Filter>Source Files\Job</Filter>
+    </ClCompile>
+    <ClCompile Include="Scheduling.cpp">
+      <Filter>Source Files\Scheduling</Filter>
+    </ClCompile>
+    <ClCompile Include="Operation.cpp">
+      <Filter>Source Files\Operation</Filter>
+    </ClCompile>
+    <ClCompile Include="Machine.cpp">
+      <Filter>Source Files\Machine</Filter>
+    </ClCompile>
+    <ClCompile Include="FileProcess.cpp">
+      <Filter>Source Files\FileProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="Qlearning.cpp">
+      <Filter>Source Files\QLearning</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Job.h">
+      <Filter>Source Files\Job</Filter>
+    </ClInclude>
+    <ClInclude Include="Scheduling.h">
+      <Filter>Source Files\Scheduling</Filter>
+    </ClInclude>
+    <ClInclude Include="Operation.h">
+      <Filter>Source Files\Operation</Filter>
+    </ClInclude>
+    <ClInclude Include="Machine.h">
+      <Filter>Source Files\Machine</Filter>
+    </ClInclude>
+    <ClInclude Include="FileProcess.h">
+      <Filter>Source Files\FileProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Qlearning.h">
+      <Filter>Source Files\QLearning</Filter>
+    </ClInclude>
+    <ClInclude Include="schedule.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
